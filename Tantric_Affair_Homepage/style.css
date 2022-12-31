@@ -1,0 +1,279 @@
+body{
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+ }
+  
+ .pointer {
+  cursor: pointer;
+ }
+  
+ main{
+   z-index:1;
+   background-color: white;
+   margin-bottom:-5%;
+ }
+  
+ #welcome{
+ background-color: rgb(177, 160, 176);
+ height:85vh;
+ }
+  
+ #title{
+  font-size: 80px;
+  text-align: center;
+  margin-top:0%;
+ }
+  
+ #subtitle{
+  font-family: Raleway;
+  color:white;
+  text-align: center;
+  font-size: 25px;
+  margin-top:-5%;
+ }
+  
+ #home_logo{
+ display: block;
+ margin:auto;
+ width:17%;
+ }
+  
+ #slogan{
+  font-family: Raleway;
+  color:black;
+  text-align: center;
+  font-size: 35px;
+ }
+  
+ #nav_bar{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: black;
+  width:100%;
+  height:8vh;
+  position:sticky;
+  top:0;
+  z-index:1;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+  
+ #nav_diamond{
+  color:rgb(177, 160, 176);
+  margin-left: -80%;
+  margin-top:110%;
+ }
+  
+ .nav_links{
+  font-family: Raleway;
+  color:white;
+  font-size:18px;
+  margin:auto;
+  padding:0%;
+  width:10%;
+ }
+  
+ #therapists{
+  margin-left: 8%;
+ }
+  
+ a{
+  text-decoration: none;
+  color:black
+ }
+  
+ .dropdown{
+  height:3vh;
+  margin:auto;
+ }
+  
+ #massages,#locations{
+  text-align:center;
+ }
+  
+ #massages_menu,#locations_menu{
+  visibility: hidden;
+  background-color: rgb(226, 213, 225);
+  color:black;
+  font-family: Baskerville;
+  font-size:16px;
+  display:flex;
+  flex-direction: column;
+  height:60vh;
+  line-height:3rem;
+  text-align: center;
+  margin-top: 13%;
+ }
+  
+ #locations_menu{
+  height:65vh;
+  width:120%;
+  margin-top: 20%;
+ }
+  
+  
+ #tantric_affair, #tantric_sensual{
+  font-family: Raleway;
+  width:65%;
+  margin:auto;
+ }
+  
+ #tantric_affair_title, #catherine_title, #sensual_title, #tantric_title, #who_we_are_title{
+  color: rgb(177, 160, 176);
+  font-size: 40px;
+  text-align: center;
+ }
+  
+  #tantric_affair_p,#catherine_p,#sensual_p,#tantric_p,#who_we_are_p1,#who_we_are_p2,#who_we_are_p3{
+    font-family: Raleway;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    line-height: 2rem;
+  }
+  
+  #catherine_p{
+    color:white;
+  }
+  
+  #tantric_quote{
+    color: rgb(177, 160, 176);
+    font-family: Raleway;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 10% auto;
+  }
+  
+  
+    .parallax{
+      background: url("https://www.dropbox.com/s/2yoiph592gasy4b/catherine_color.png?dl=1")
+       no-repeat fixed 50%;
+      margin-top:10%;
+    }
+  
+    .inner_parallax{
+      padding:20%;
+   
+    }
+  
+  #catherine_title{
+    font-family: Raleway;
+    margin-top:0%;
+ }
+  
+  #catherine_p{
+    margin-top: 10%;
+  }
+  
+  #sensual_title, #tantric_title{
+    margin-top:20%;
+  }
+  
+  #tantric_sensual{
+    margin-bottom:10%;
+  }
+   #who_we_are_title{
+    font-family: Raleway;
+  }
+  #who_we_are_images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  #first_4,#second_4{
+    width:80%;
+    margin: auto;
+    margin-bottom:3%;
+  }
+   #second_4{
+   margin-left:11%;
+  }
+  
+  
+  .therapist_homepage{
+    margin-left:3%;
+  }
+  
+ #call_button{
+  background-color: rgb(177, 160, 176);
+  border: 1px solid rgb(177, 160, 176);
+  border-radius: 20px;
+  width: 200%;
+  height: 8vh;
+  padding: 0%;
+  margin: 30% -60% auto;
+  }
+  
+  #phone_number{
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #who_we_are_p1,#who_we_are_p2,#who_we_are_p3{
+    width:65%;
+    margin:auto;
+  }
+  
+  
+  #who_we_are_p1{
+   margin-top: 5%;
+   margin-bottom: 5%;
+  }
+  
+  #who_we_are_p2{
+    margin-bottom:5%;
+  }
+  
+  .fa-diamond{
+  margin-top: -2%;
+  margin-bottom: 2%;
+  }
+  
+ footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(177, 160, 176);
+    width:100%;
+    height:65vh;
+    position:sticky;
+    bottom:0;
+    z-index:-1;
+  }
+   #contact{
+  margin-top:18%;
+  margin-left: -20%;
+  
+  }
+  
+ #footer_logo{
+  height:30vh;
+  margin-top:5%;
+ }
+  
+ #massages_links,#locations_links,#quick_links{
+  margin-top: 4%;
+ }
+  
+  #massages_title,#locations_title,#contact_title,#quick_links_title{
+    font-family: Raleway;
+    font-size: 40px;
+    color:black;
+    margin-bottom:8%;
+  }
+  
+  li{
+    font-family: Raleway;
+    color:black;
+    font-size: 19px;
+    line-height: 2rem;
+   
+  }
+
+  
