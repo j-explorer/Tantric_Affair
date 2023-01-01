@@ -253,17 +253,17 @@ body{
   }
   
  #footer_logo{
-  height:30vh;
+  height:28vh;
   margin-top:5%;
  }
   
  #massages_links,#locations_links,#quick_links{
-  margin-top: 4%;
+  margin-top: 6%;
  }
   
   #massages_title,#locations_title,#contact_title,#quick_links_title{
     font-family: Raleway;
-    font-size: 40px;
+    font-size: 25px;
     color:black;
     margin-bottom:8%;
   }
@@ -271,8 +271,8 @@ body{
   li{
     font-family: Raleway;
     color:black;
-    font-size: 19px;
-    line-height: 2rem;
+    font-size: 16px;
+    line-height: 1.8rem;
    
   }
 
