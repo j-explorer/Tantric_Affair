@@ -91,37 +91,46 @@ body{
   line-height: 1.8rem;
 }  
 
-#tantric_title{
+#tantric_pricings{
+  padding:2%;
+}
+
+#tantric_title, #sensual_title{
   font-size: 30px;
 }
 
 p{
   font-size: 18px;
 }
-
+ 
 .fa-diamond{
   margin-top: -2%;
   margin-bottom: 2%;
   }
 
 .pricing_section{
-  height:90vh;
+  height:80vh;
   background-color: rgb(227, 217, 227);
   width:80%;
   margin: auto;
 }
 
 .time{
+  font-family: arial;
   float:left;
   margin: -1% auto;
   margin-left: 25%;
 }
 
 .price{
+  font-family: arial;
   float:right;
   margin:-1% auto;
-  margin-right: 25%;
-  
+  margin-right: 25%; 
+}
+
+i{
+  font-size: 16px;
 }
 
 .vertical_line_divider{
@@ -139,12 +148,17 @@ p{
   margin-top:2%;
 }
 
-#individual2, #individual3, #individual4{
+.space{
   margin-top:-2.5%;
 }
 
 #sensual_title{
   margin-top:5%;
+}
+
+#sensual_pricings{
+  height:30vh;
+  padding:1%;
 }
 
 

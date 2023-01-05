@@ -1,6 +1,6 @@
 //open and close navbar menus
  
-/*const massagesDropdown = document.getElementsByClassName('dropdown');
+const massagesDropdown = document.getElementsByClassName('dropdown');
 const locationsLink = document.getElementById('locations');
 const locationsMenu = document.getElementById('locations_menu');
 const massagesMenu = document.getElementById('massages_menu');
@@ -23,7 +23,7 @@ massagesDropdown.addEventListener('mouseout', menuHidden);
 function menuHidden (){
  massagesMenu.style.visibility="hidden";
  locationsMenu.style.visibility="hidden";
-}*/
+}
  
 //change button colors when hovered
  

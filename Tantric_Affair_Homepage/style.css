@@ -13,7 +13,7 @@ body{
    background-color: white;
    margin-bottom:-5%;
  }
-  
+
  #welcome{
  background-color: rgb(177, 160, 176);
  height:85vh;
@@ -22,7 +22,6 @@ body{
  #title{
   font-size: 80px;
   text-align: center;
-  margin-top:0%;
  }
   
  #subtitle{
@@ -35,7 +34,7 @@ body{
   
  #home_logo{
  display: block;
- margin:auto;
+ margin:5% auto;
  width:17%;
  }
   
@@ -94,10 +93,10 @@ body{
  }
   
  #massages_menu,#locations_menu{
-  visibility: hidden;
-  background-color: rgb(226, 213, 225);
+  visibility: visible;
+  background-color: rgb(227, 217, 227);
   color:black;
-  font-family: Baskerville;
+  font-family: Raleway;
   font-size:16px;
   display:flex;
   flex-direction: column;
@@ -113,76 +112,64 @@ body{
   margin-top: 20%;
  }
   
-  
- #tantric_affair, #tantric_sensual{
+
+
+ .titles{
   font-family: Raleway;
-  width:65%;
-  margin:auto;
- }
-  
- #tantric_affair_title, #catherine_title, #sensual_title, #tantric_title, #who_we_are_title{
   color: rgb(177, 160, 176);
   font-size: 40px;
   text-align: center;
+  margin-top:8%;
+  margin-bottom:5%;
  }
   
-  #tantric_affair_p,#catherine_p,#sensual_p,#tantric_p,#who_we_are_p1,#who_we_are_p2,#who_we_are_p3{
+  p{
     font-family: Raleway;
     color: black;
     text-align: center;
     font-size: 19px;
     line-height: 2rem;
+    width:65%;
+    margin:auto;
   }
-  
-  #catherine_p{
-    color:white;
-  }
-  
+
   #tantric_quote{
     color: rgb(177, 160, 176);
-    font-family: Raleway;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     width: 80%;
     margin: 10% auto;
   }
   
+.parallax{
+ background: url("https://www.dropbox.com/s/2yoiph592gasy4b/catherine_color.png?dl=1")
+ no-repeat fixed 50%;
+  margin-top:10%;
+}
   
-    .parallax{
-      background: url("https://www.dropbox.com/s/2yoiph592gasy4b/catherine_color.png?dl=1")
-       no-repeat fixed 50%;
-      margin-top:10%;
-    }
+.inner_parallax{
+padding:20%;
+}
   
-    .inner_parallax{
-      padding:20%;
-   
-    }
-  
-  #catherine_title{
-    font-family: Raleway;
-    margin-top:0%;
+#catherine_title{
+ margin-top:0%;
  }
   
-  #catherine_p{
-    margin-top: 10%;
-  }
-  
-  #sensual_title, #tantric_title{
-    margin-top:20%;
-  }
-  
-  #tantric_sensual{
-    margin-bottom:10%;
-  }
-   #who_we_are_title{
-    font-family: Raleway;
-  }
+#catherine_p{
+color:white;
+width:100%;
+}
+
+
+#benefits_p2{
+width: 65%;
+margin:1% auto;
+}
+
   #who_we_are_images{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
   }
   
   #first_4,#second_4{
@@ -212,12 +199,8 @@ body{
   #phone_number{
     font-family: Raleway;
     font-size: 20px;
-    text-align: center;
-  }
-  
-  #who_we_are_p1,#who_we_are_p2,#who_we_are_p3{
-    width:65%;
-    margin:auto;
+    width:50%;
+    margin:4% auto;
   }
   
   
@@ -231,10 +214,12 @@ body{
   }
   
   .fa-diamond{
+  display: block;
+  margin: auto;
   margin-top: -2%;
   margin-bottom: 2%;
   }
-  
+
  footer{
     display:flex;
     flex-direction: row;
@@ -246,6 +231,7 @@ body{
     bottom:0;
     z-index:-1;
   }
+
    #contact{
   margin-top:18%;
   margin-left: -20%;

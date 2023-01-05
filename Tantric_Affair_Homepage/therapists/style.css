@@ -83,9 +83,19 @@ a{
   width:50%;
 }
 
+.therapist_names{
+  font-size: 25px;
+  margin-top:5%;
+  margin-bottom:0%;
+}
+
 .therapist{
   width:35%;
   margin: auto;
+}
+
+#therapist1{
+  margin-top:10%;
 }
 
 p{
