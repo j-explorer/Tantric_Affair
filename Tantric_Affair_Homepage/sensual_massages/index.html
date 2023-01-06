@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="style.css"/>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ <link rel="stylesheet" href="style.css"/>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+ <style type="text/css">    
+ @font-face{
+  font-family:"myFont";
+  src:url("Fonts/7311041/bfbff343-25af-48a7-8848-f5af8545c3a9.woff2") format("woff2"),url("Fonts/7311041/7fc2995a-85d1-4838-9e8c-f43929535ff3.woff") format("woff");
+}
+</style> 
   <title>Sensual Massage</title>
 </head>
 
@@ -15,50 +22,52 @@
 
 <body id="body">
 
-  <main>
-
+<main>
 
   <div id="nav_bar">
-    <a class="nav_links pointer" id="therapists" href="/therapists">Therapists</a>
-  
-    <div class="dropdown">
-    <a id="massages" class="nav_links pointer">Massages</a>
-    <div id="massages_menu">
-      <a class="pointer">Tantric Massage</a>
-      <a class="pointer" href="/sensual_massage"> Sensual/Erotic Massage</a>
-      <a class="pointer" href="/dark_tantra">Dark Tantra</a>
-      <a class="pointer">Four Hand Massage</a>
-      <a class="pointer">Prostate Massage</a>
-      <a class="pointer">Aqua Bath/Shower</a>
-      <a class="pointer">Golden Shower</a>
-      <a class="pointer" href="/feet_fetish">Feet Fetish</a>
-      <a class="pointer">Japanese Nuru</a>
-    </div>
-  </div>
-    
-  <div class="dropdown">
-    <a id="locations" class="nav_links pointer">Locations</a>
-    <div id="locations_menu">
-      <a class="pointer">Covent Garden</a>
-      <a class="pointer">Bond Street</a>
-      <a class="pointer">Lancaster Gate</a>
-      <a class="pointer">Mayfair</a>
-      <a class="pointer">Bayswater</a>
-      <a class="pointer">Earls Court</a>
-      <a class="pointer">Notting Hill</a>
-      <a class="pointer">Chelsea</a>
-      <a class="pointer">Kensington</a>
-      <a class="pointer">Sloane Square</a>
-    </div>
-  </div>
-  
-   <a href="/tantric_affair_london">
-    <img id="nav_logo" class="pointer" src="https://www.dropbox.com/s/82hjcnv4v7benwz/FV%20leaves%20Top.png?dl=1"/></a>
-    <a id="prices" class="nav_links pointer">Prices</a>
-    <a class="nav_links pointer">Join Us</a>
-    <a class="nav_links pointer">Contact</a>
-  </div>
+    <a class="nav_links pointer" id="therapists" href="therapists/">Therapists</a>
 
+    <div class="dropdown" id="massages_dropdown">
+      <p id="massages" class="nav_links pointer">Massages</p>
+        <div id="massages_menu">
+            <a class="pointer" href="tantric_massage/">Tantric Massage</a>
+            <a class="pointer" href="sensual_massages/"> Sensual/Erotic Massage</a>
+            <a class="pointer" href="dark_tantra/">Dark Tantra</a>
+            <a class="pointer" href="four_hand_massage/">Four Hand Massage</a>
+            <a class="pointer" href="prostate_massage/">Prostate Massage</a>
+            <a class="pointer" href="aqua_bath_shower/">Aqua Bath/Shower</a>
+            <a class="pointer" href="golden_shower/">Golden Shower</a>
+            <a class="pointer" href="foot_fetish/">Foot Fetish</a>
+            <a class="pointer" href="japanese_nuru/">Japanese Nuru</a>
+        </div>
+    </div>
+
+    <div class="dropdown" id="locations_dropdown">
+      <p id="locations" class="nav_links pointer">Locations</p>
+        <div id="locations_menu">
+          <a class="pointer">Covent Garden</a>
+          <a class="pointer">Bond Street</a>
+          <a class="pointer">Lancaster Gate</a>
+          <a class="pointer">Mayfair</a>
+          <a class="pointer">Bayswater</a>
+          <a class="pointer">Earls Court</a>
+          <a class="pointer">Notting Hill</a>
+          <a class="pointer">Chelsea</a>
+          <a class="pointer">Kensington</a>
+          <a class="pointer">Sloane Square</a>
+        </div>
+    </div>
+    
+      <a href="#welcome">
+      <i id="nav_diamond" class="fa fa-diamond"></i>
+      </a>
+    
+      <a id="prices" class="nav_links pointer" href="prices/">Prices</a>
+    
+      <a class="nav_links pointer" href="join_us/">Join Us</a>
+    
+      <a class="nav_links pointer" href="contact/">Contact</a>
+  </div>
 
   <p id="sensual_massage">Sensual Massage</p>
 
@@ -81,49 +90,53 @@
   </div>
 
   </main>
+  
   <footer id="page_links">
     <div id="massages_links">
-     <p id="massages_title">Massages</p>
-       <li class="pointer">Tantric Massage</li>
-       <li class="pointer">Sensual/Erotic Massage</li>
-       <li class="pointer">Dark Tantra</li>
-       <li class="pointer">Four Hand Massage</li>
-       <li class="pointer">Prostate Massage</li>
-       <li class="pointer">Aqua Bath/Shower</li>
-       <li class="pointer">Golden Shower</li>
-       <li class="pointer">Feet Fetish</li>
-       <li class="pointer">Japanese Nuru</li>
+      <p id="massages_title">Massages</p>
+      <a href="tantric_massage/" class="pointer"><li>Tantric Massage</li></a>
+      <a href="sensual_massages/" class="pointer"><li>Sensual/Erotic Massage</li></a>
+      <a class="pointer" href="dark_tantra/"><li>Dark Tantra</li></a>
+      <a class="pointer" href="four_hand_massage/"><li >Four Hand Massage</li></a>
+      <a class="pointer" href="prostate_massage/"><li>Prostate Massage</li></a>
+      <a class="pointer" href="aqua_bath_shower/"><li>Aqua Bath/Shower</li></a>
+      <a class="pointer" href="golden_shower/"><li>Golden Shower</li></a>
+      <a class="pointer" href="foot_fetish/"><li>Foot Fetish</li></a>
+      <a class="pointer" href="japanese_nuru/"><li>Japanese Nuru</li></a>
     </div>
+  
     <div id="locations_links">
-     <p id="locations_title">Locations</p>
-       <li class="pointer">Covent Garden</li>
-       <li class="pointer">Bond Street</li>
-       <li class="pointer">Lancaster Gate</li>
-       <li class="pointer">Mayfair</li>
-       <li class="pointer">Bayswater</li>
-       <li class="pointer">Earls Court</li>
-       <li class="pointer">Notting Hill</li>
-       <li class="pointer">Chelsea</li>
-       <li class="pointer">Kensington</li>
-       <li class="pointer">Sloane Square</li>
+      <p id="locations_title">Locations</p>
+      <li class="pointer">Covent Garden</li>
+      <li class="pointer">Bond Street</li>
+      <li class="pointer">Lancaster Gate</li>
+      <li class="pointer">Mayfair</li>
+      <li class="pointer">Bayswater</li>
+      <li class="pointer">Earls Court</li>
+      <li class="pointer">Notting Hill</li>
+      <li class="pointer">Chelsea</li>
+      <li class="pointer">Kensington</li>
+      <li class="pointer">Sloane Square</li>
     </div>
-    
-
-    <img  id="footer_logo" class="pointer" src="https://www.dropbox.com/s/82hjcnv4v7benwz/FV%20leaves%20Top.png?dl=1"/>
-
-
+  
+    <a href="#welcome"><img  id="footer_logo" class="pointer" src="https://www.dropbox.com/s/82hjcnv4v7benwz/FV%20leaves%20Top.png?dl=1"/></a>
+  
     <div id="contact">
       <p id="contact_title">Contact</p>
+      <i class="fa-brands fa-instagram"></i>
+      <p id="email">Info@tantricaffairlondon.com</p>
     </div>
-
-
+  
+  
     <div id="quick_links">
-     <p id="quick_links_title">Quick Links</p>
-     <li class="pointer">Therapists</li>
-     <li class="pointer">Prices</li>
-     <li class="pointer">Join Us</li>
+      <p id="quick_links_title">Quick Links</p>
+      <a href="therapists/" class="pointer"><li>Therapists</li></a>
+      <a href="prices/" class="pointer"><li>Prices</li></a>
+      <a href="join_us/" class="pointer"><li>Join Us</li></a>
+      <a href="rules_of_engagement/" class="pointer"><li>Rules of Engagement</li></a>
     </div>
-   </footer>
+  </footer>
+
 </body>
 <script src='app.js'></script>
 </html>

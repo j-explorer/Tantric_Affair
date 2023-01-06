@@ -28,3 +28,4 @@ locationsDropdown.addEventListener('mouseout', hidden);
 function hidden (){
  locationsMenu.style.visibility="collapse";
 }
+ 
