@@ -5,11 +5,11 @@ overflow-x:hidden;
 }
 
 main{
-background-image: url("https://www.dropbox.com/s/4atz54c4j6f8lo0/sensual_massage.jpg?dl=1");
+background-image: url("https://www.dropbox.com/s/huoduermqsutmpr/four_hand_massage.jpg?dl=1");
 background-repeat: no-repeat;
 background-size: 100%;
 height:100vh;
-margin-bottom:-5%;
+margin-bottom:-3%;
 }
 
 .pointer { 
@@ -67,19 +67,21 @@ font-family: Raleway;
 font-size:16px;
 display:flex;
 flex-direction: column;
-height:60vh;
-width:110%;
-line-height:3rem;
+height:40vh;
+width:130%;
+line-height:2rem;
 text-align: center;
 margin-top: 10%;
 }
 
 #locations_menu{
-height:65vh;
+font-size:15px;
+height:60vh;
 width:110%;
+line-height:1.5rem;
 }
 
-#sensual_massage{
+#four_hand{
 color:white;
 font-family: Raleway;
 font-size: 30px;
@@ -89,44 +91,31 @@ padding:3%;
 
 #transparent_background{
 background-color: rgba(255, 255, 255, 0.2);
-
 }
 
-#sensual_p{
+#four_hand_p{
 font-family: Raleway;
 text-align: center;
 font-size: 18px;
 color:white;
+line-height: 1.6;
 width:80%;
 margin: -3% auto;
 padding:1%;
 }
 
-.fa-diamond{
-margin-top: -2%;
-}
 
 a{
 text-decoration: none;
 color:black
 }
 
-.sensual_a{
-  color:rgb(177, 160, 176);
-}
-
-#extra_info{
-font-size:16px;
-margin-top:5%;
-}
-
-
 footer{
 display:flex;
 flex-direction: row;
 font-family: Raleway;
 justify-content: space-evenly;
-background-color: rgb(177, 160, 176);
+background-color: black;
 width:100%;
 height:60vh;
 position:sticky;
@@ -135,6 +124,7 @@ z-index:-1;
 }
 
 #contact{
+color:white;
 margin-top:20%;
 margin-left: -22%;
 }
@@ -143,13 +133,14 @@ margin-left: -22%;
 font-size: 16px;
 text-align: center;
 width:100%;
-margin-top: 3%;;
+margin-top: 3%;
 }
 
 .fa-instagram{
 display: block;
 margin: auto;
 width:10%;
+margin-top:5%;
 }
 
 #footer_logo{
@@ -158,19 +149,32 @@ margin-top: 50%;
 }
 
 #massages_links,#locations_links,#quick_links{
-margin-top: 6%;
+margin-top: 4%;
+}
+
+#massages_links,#quick_links{
+margin-top:2.5%;
 }
 
 #massages_title,#locations_title,#contact_title,#quick_links_title{
 font-size: 25px;
-color:black;
+color:rgb(177, 160, 176);
 width:100%;
 text-align: center;
-margin-bottom:8%;
+margin-bottom:-0.5%;
 }
 
 li{
-color:black;
-font-size: 16px;
+font-family: Raleway;
+color:white;
+font-size: 15px;
 line-height: 1.8rem;
+}
+
+.location{
+line-height: 1.1rem;
+}
+
+.first_li{
+margin-top: 5%;
 }

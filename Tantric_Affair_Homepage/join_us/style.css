@@ -9,10 +9,9 @@ cursor: pointer;
 }
 
 main{
-  z-index:1;
-  background-color: white;
-  margin-bottom:-5%;
-  height:195vh;
+z-index:1;
+background-color: white;
+margin-bottom:-3%;
 }
 
 #nav_bar{
@@ -71,46 +70,63 @@ font-family: Raleway;
 font-size:16px;
 display:flex;
 flex-direction: column;
-height:60vh;
-width:110%;
-line-height:3rem;
+height:40vh;
+width:130%;
+line-height:2rem;
 text-align: center;
 margin-top: 10%;
 }
 
 #locations_menu{
-height:65vh;
+font-size:15px;
+height:60vh;
 width:110%;
+line-height:1.5rem;
+}
+
+
+#join_us_section{
+font-family: Raleway;
+font-size: 20px;
+width:80%;
+margin:auto;
+height:135vh;
+}
+
+#employment{
+color:rgb(177, 160, 176);
+font-size: 30px;
+text-align: center;
+}
+
+p{
+font-size: 18px;
+text-align: center;
 }
 
 form{
-font-family: Raleway;
-font-size: 20px;
 color:rgb(177, 160, 176);
- width:80%;
- margin:10% auto;
- padding:1%;
- height:80vh;
+padding:1%;
 }
 
 #form_section{
-  margin-top:5%;
+margin-top:5%;
 }
 
 .column{
- display: flex;
- flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 input{
-  padding: 1%;
-  width: 40%;
+padding: 1%;
+width: 40%;
 }
 
 textarea{
-  margin-top:5%;
-  padding:5%;
-  width:80%;
+margin-top:5%;
+padding:5%;
+width:80%;
 }
 
 button{
@@ -121,56 +137,70 @@ width:10%;
 }
 
 footer{
-  display:flex;
-  flex-direction: row;
-  font-family: Raleway;
-  justify-content: space-evenly;
-  background-color: black;
-  width:100%;
-  height:60vh;
-  position:sticky;
-  bottom:0;
-  z-index:-1;
-  }
-  
-  #contact{
-  color:white;
-  margin-top:20%;
-  margin-left: -22%;
-  }
-  
-  #email{
-  font-size: 16px;
-  text-align: center;
-  width:100%;
-  margin-top: 3%;;
-  }
-  
-  .fa-instagram{
-  display: block;
-  margin: auto;
-  width:10%;
-  }
-  
-  #footer_logo{
-  height:28vh;
-  margin-top: 50%;
-  }
-  
-  #massages_links,#locations_links,#quick_links{
-  margin-top: 6%;
-  }
-  
-  #massages_title,#locations_title,#contact_title,#quick_links_title{
-  font-size: 25px;
-  color:rgb(177, 160, 176);
-  width:100%;
-  text-align: center;
-  margin-bottom:8%;
-  }
-  
-  li{
-  color:white;
-  font-size: 16px;
-  line-height: 1.8rem;
-  }
+display:flex;
+flex-direction: row;
+font-family: Raleway;
+justify-content: space-evenly;
+background-color: black;
+width:100%;
+height:60vh;
+position:sticky;
+bottom:0;
+z-index:-1;
+}
+
+#contact{
+color:white;
+margin-top:20%;
+margin-left: -22%;
+}
+
+#email{
+font-size: 16px;
+text-align: center;
+width:100%;
+margin-top: 3%;
+}
+
+.fa-instagram{
+display: block;
+margin: auto;
+width:10%;
+margin-top:5%;
+}
+
+#footer_logo{
+height:28vh;
+margin-top: 50%;
+}
+
+#massages_links,#locations_links,#quick_links{
+margin-top: 4%;
+}
+
+#massages_links,#quick_links{
+margin-top:2.5%;
+}
+
+#massages_title,#locations_title,#contact_title,#quick_links_title{
+font-size: 25px;
+color:rgb(177, 160, 176);
+width:100%;
+text-align: center;
+margin-bottom:-0.5%;
+}
+
+li{
+font-family: Raleway;
+color:white;
+font-size: 15px;
+line-height: 1.8rem;
+}
+
+.location{
+line-height: 1.1rem;
+}
+
+.first_li{
+margin-top: 5%;
+}

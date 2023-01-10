@@ -1,152 +1,152 @@
 body{
-  margin:0;
-  padding:0;
-  overflow-x:hidden;
- }
-  
- .pointer {
-  cursor: pointer;
- }
-  
- main{
-   z-index:1;
-   background-color: white;
-   margin-bottom:-5%;
- }
+margin:0;
+padding:0;
+overflow-x:hidden;
+}
 
- #welcome{
- background-color: rgb(177, 160, 176);
- height:85vh;
- }
-  
- #title{
-  font-family:'myFont';
-  font-size: 80px;
-  text-align: center;
- }
-  
- #subtitle{
-  font-family: Raleway;
-  color:white;
-  text-align: center;
-  font-size: 25px;
-  margin-top:-5%;
- }
-  
- #home_logo{
- display: block;
- margin:5% auto;
- width:17%;
- }
-  
- #slogan{
-  font-family: Raleway;
-  color:black;
-  text-align: center;
-  font-size: 35px;
- }
-  
- #nav_bar{
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  background-color: black;
-  width:100%;
-  height:8vh;
-  position:sticky;
-  top:0;
-  z-index:1;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
- }
-  
- #nav_diamond{
-  color:rgb(177, 160, 176);
-  margin-top:120%;
-  margin-left:-200%;
- }
-  
- .nav_links{
-  font-family: Raleway;
-  color:white;
-  font-size:18px;
-  margin:auto;
-  padding:0%;
-  width:10%;
- }
-  
- #therapists{
-  margin-left: 8%;
- }
-  
- a{
-  text-decoration: none;
-  color:black
- }
-  
- .dropdown{
-  height:8vh;
-  margin: 1% auto;
-  width:10%;
- }
+.pointer {
+cursor: pointer;
+}
 
- #massages,#locations{
- margin-left:0%;
- }
-  
- #massages_menu,#locations_menu{
-  visibility: collapse;
-  background-color: rgb(227, 217, 227);
-  color:black;
-  font-family: Raleway;
-  font-size:16px;
-  display:flex;
-  flex-direction: column;
-  height:60vh;
-  width:110%;
-  line-height:3rem;
-  text-align: center;
-  margin-top: 10%;
- }
-  
- #locations_menu{
-  height:65vh;
-  width:110%;
- }
-  
+main{
+z-index:1;
+background-color: white;
+margin-bottom:-3%;
+}
 
+#welcome{
+background-color: rgb(177, 160, 176);
+height:85vh;
+}
 
- .titles{
-  font-family: Raleway;
+#title{
+font-family:'myFont';
+font-size: 80px;
+text-align: center;
+}
+
+#subtitle{
+font-family: Raleway;
+color:white;
+text-align: center;
+font-size: 25px;
+margin-top:-5%;
+}
+
+#home_logo{
+display: block;
+margin:5% auto;
+width:17%;
+}
+
+#slogan{
+font-family: Raleway;
+color:black;
+text-align: center;
+font-size: 35px;
+}
+
+#nav_bar{
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+background-color: black;
+width:100%;
+height:8vh;
+position:sticky;
+top:0;
+z-index:1;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#nav_diamond{
+color:rgb(177, 160, 176);
+margin-top:120%;
+margin-left:-200%;
+}
+
+.nav_links{
+font-family: Raleway;
+color:white;
+font-size:18px;
+margin:auto;
+padding:0%;
+width:10%;
+}
+
+#therapists{
+margin-left: 8%;
+}
+
+a{
+text-decoration: none;
+color:black
+}
+
+.dropdown{
+height:8vh;
+margin: 1% auto;
+width:10%;
+}
+
+#massages,#locations{
+margin-left:0%;
+}
+
+#massages_menu,#locations_menu{
+visibility: collapse;
+background-color: rgb(227, 217, 227);
+color:black;
+font-family: Raleway;
+font-size:16px;
+display:flex;
+flex-direction: column;
+height:40vh;
+width:130%;
+line-height:2rem;
+text-align: center;
+margin-top: 10%;
+}
+
+#locations_menu{
+font-size:15px;
+height:60vh;
+width:110%;
+line-height:1.5rem;
+}
+
+.titles{
+font-family: Raleway;
+color: rgb(177, 160, 176);
+font-size: 40px;
+text-align: center;
+margin-top:8%;
+margin-bottom:5%;
+}
+
+p{
+font-family: Raleway;
+color: black;
+text-align: center;
+font-size: 19px;
+line-height: 2rem;
+width:65%;
+margin:auto;
+}
+
+#tantric_quote{
   color: rgb(177, 160, 176);
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
-  margin-top:8%;
-  margin-bottom:5%;
- }
-  
-  p{
-    font-family: Raleway;
-    color: black;
-    text-align: center;
-    font-size: 19px;
-    line-height: 2rem;
-    width:65%;
-    margin:auto;
-  }
+  width: 80%;
+  margin: 10% auto;
+}
 
-  #tantric_quote{
-    color: rgb(177, 160, 176);
-    font-size: 25px;
-    text-align: center;
-    width: 80%;
-    margin: 10% auto;
-  }
-  
 .parallax{
- background: url("https://www.dropbox.com/s/2yoiph592gasy4b/catherine_color.png?dl=1")
- no-repeat fixed 50%;
-  margin-top:10%;
+background: url("https://www.dropbox.com/s/2yoiph592gasy4b/catherine_color.png?dl=1")
+no-repeat fixed 50%;
+margin-top:10%;
 }
   
 .inner_parallax{
@@ -169,21 +169,21 @@ margin:1% auto;
 }
 
 #who_we_are_images{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 #first_4,#second_4{
-  width:80%;
-  margin: auto;
-  margin-bottom:3%;
+width:80%;
+margin: auto;
+margin-bottom:3%;
 }
 
 
 .therapist_homepage{
-  margin-left:3%;
-  width:21%;
+margin-left:3%;
+width:21%;
 }
 
 #call_button{
@@ -246,13 +246,14 @@ margin-left: -22%;
 font-size: 16px;
 text-align: center;
 width:100%;
-margin-top: 3%;;
+margin-top: 3%;
 }
 
 .fa-instagram{
 display: block;
 margin: auto;
 width:10%;
+margin-top:5%;
 }
 
 #footer_logo{
@@ -261,7 +262,7 @@ margin-top: 50%;
 }
 
 #massages_links,#locations_links,#quick_links{
-margin-top: 6%;
+margin-top: 4%;
 }
 
 #massages_title,#locations_title,#contact_title,#quick_links_title{
@@ -269,13 +270,20 @@ font-size: 25px;
 color:black;
 width:100%;
 text-align: center;
-margin-bottom:8%;
 }
 
 li{
 font-family: Raleway;
 color:black;
-font-size: 16px;
+font-size: 15px;
 line-height: 1.8rem;
+}
+
+.location{
+line-height: 1.1rem;
+}
+
+.first_li{
+margin-top: 5%;
 }
 
